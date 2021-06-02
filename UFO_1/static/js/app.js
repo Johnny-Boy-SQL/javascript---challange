@@ -38,11 +38,11 @@ button.on("click", () => {
     var inputDate = inputFieldDate.property("value").trim();
     console.log(inputDate)
     // https://www.w3schools.com/jsref/jsref_tolowercase.asp
-    var inputCity = inputFieldCity.property("value").toLowerCase().trim();
-    console.log(inputCity)
-    var inputState = inputFieldState.property("value").toLowerCase().trim();
-    var inputCountry = inputFieldCountry.property("value").toLowerCase().trim();
-    var inputShape = inputFieldShape.property("value").toLowerCase().trim();
+    // var inputCity = inputFieldCity.property("value").toLowerCase().trim();
+    // console.log(inputCity)
+    // var inputState = inputFieldState.property("value").toLowerCase().trim();
+    // var inputCountry = inputFieldCountry.property("value").toLowerCase().trim();
+    // var inputShape = inputFieldShape.property("value").toLowerCase().trim();
     
 
     var filterDate = tableData.filter(tableData => tableData.datetime === inputDate);
